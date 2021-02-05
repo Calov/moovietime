@@ -1,49 +1,56 @@
 <template>
-  <div v-if="isShow" class="ui-navbar-category">
-    <div class="ui-navbar-category__triangle"></div>
-    <ul>
-      <li>
-        <a href="#">Action</a>
-      </li>
-      <li>
-        <a href="#">Horror</a>
-      </li>
-      <li>
-        <a href="#">Commedy</a>
-      </li>
-      <li>
-        <a href="#">Drama</a>
-      </li>
-      <li>
-        <a href="#">Romantic</a>
-      </li>
-      <li>
-        <a href="#">Colosal</a>
-      </li>
-      <li>
-        <a href="#">Thriller</a>
-      </li>
-      <li>
-        <a href="#">Adventure</a>
-      </li>
-      <li>
-        <a href="#">Fantasy</a>
-      </li>
-      <li>
-        <a href="#">Animation</a>
-      </li>
-      <li>
-        <a href="#">Family</a>
-      </li>
-      <li>
-        <a href="#">Others</a>
-      </li>
-    </ul>
-  </div>
+  <TransitionSlideV>
+    <div v-if="isShow" class="ui-navbar-category">
+      <div class="ui-navbar-category__triangle"></div>
+      <ul>
+        <li>
+          <a href="#">Action</a>
+        </li>
+        <li>
+          <a href="#">Horror</a>
+        </li>
+        <li>
+          <a href="#">Commedy</a>
+        </li>
+        <li>
+          <a href="#">Drama</a>
+        </li>
+        <li>
+          <a href="#">Romantic</a>
+        </li>
+        <li>
+          <a href="#">Colosal</a>
+        </li>
+        <li>
+          <a href="#">Thriller</a>
+        </li>
+        <li>
+          <a href="#">Adventure</a>
+        </li>
+        <li>
+          <a href="#">Fantasy</a>
+        </li>
+        <li>
+          <a href="#">Animation</a>
+        </li>
+        <li>
+          <a href="#">Family</a>
+        </li>
+        <li>
+          <a href="#">Others</a>
+        </li>
+      </ul>
+    </div>
+  </TransitionSlideV>
 </template>
 
 <script>
+  import TransitionSlideV from '@/components/__transition/TransitionSlideV'
+
   export default {
+    components: {
+      TransitionSlideV
+    },
     props: {
       isShow: {
         type: Boolean,
