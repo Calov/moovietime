@@ -1,4 +1,4 @@
-# moovie-time
+# moovietime
 
 ## Build Setup
 
