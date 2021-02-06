@@ -39,7 +39,7 @@
       text-align: center;
       font-size: 28px;
       color: #6c757d;
-      margin: 1.5em 0;
+      margin: 2em 0 0.75em;
     }
     &__list {
       ul {
@@ -49,7 +49,7 @@
         align-items: center;
         li {
           img {
-            max-width: 15vw;
+            max-height: 65px;
           }
         }
       }

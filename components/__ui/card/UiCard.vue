@@ -41,7 +41,7 @@
 
 <style lang="scss" scoped>
   .ui-card {
-    padding: 0 5%;
+    padding: 0 2%;
     display: flex;
     justify-content: center;
     position: relative;
@@ -55,8 +55,8 @@
       border-bottom-right-radius: 10px;
       position: absolute;
       bottom: 0;
-      width: 90%;
-      padding: 0.75em 0 0.25em;
+      width: 96%;
+      padding: 0.4em 0 0.25em;
       &__rating {
         display: flex;
         justify-content: center;

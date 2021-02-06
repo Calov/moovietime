@@ -51,7 +51,7 @@
       text-align: center;
       font-size: 28px;
       color: #6c757d;
-      margin: 1.5em 0;
+      margin: 1.5em 0 0.75em;
     }
   }
 </style>

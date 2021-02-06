@@ -6,7 +6,7 @@
         [768, 5]
       ]"
       :pagination-enabled="false"
-      :space-padding="5"
+      :space-padding="0"
       :navigation-enabled="true"
       navigation-next-label=""
       navigation-prev-label=""
